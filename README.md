@@ -74,4 +74,4 @@ Explanation for the new options:
 * `-misu/--meas_IS_unitary (-miss/--meas_IS_separable)`: whether implementing DAT in unitary or separable mode. `-misu` for unitary mode and `-miss` for separable mode.
 * `-p/--plot`: the options for saving phase, confusion matrix and energe distribution during testing phase.
 
-All the models for generating Fig.4(b), 4(c), 4(d), 4(e), 5(c) are saved in `./logs`.# DAT_MPNN
+All the models for generating Fig.4(b), 4(c), 4(d), 4(e), 5(c) are saved in `./logs`.
