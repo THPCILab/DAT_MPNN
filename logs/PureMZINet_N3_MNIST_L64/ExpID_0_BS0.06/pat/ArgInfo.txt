@@ -1,0 +1,32 @@
+---Argument Information---
+pnn_name: PureMZINet
+iter_num: 3
+data_name: MNIST
+ori_size: 28
+cn_model: Unet
+kernel_size: 3
+BN_flag: False
+CB_layers: [3, 3, 3]
+FM_num: [4, 8, 16]
+meas_IS_unitary: False
+meas_IS_separable: False
+train: True
+test: False
+train_method: pat
+exp_id: 0
+gpu: 0
+load_path: ./logs
+save_path: ./logs
+plot: False
+load_existing_model: False
+train_batch_size: 500
+log_batch_num: 10
+epoch: 50
+save_epoch: 10
+init_lr: 0.001
+init_lr_cn: 0.001
+waveguide_dims: 64
+bs_error: 0.06
+phase_error: 0.1
+error_type: bsE
+--------------------------

@@ -1,0 +1,805 @@
+Training new model from scratch......
+--------------------------
+Training with SEPN
+--------------------------
+
+Current training epoch: 1, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 1 | step =    10 | loss_pnn = 2.273 | loss_cn = 0.00971420 | acc_sim = 0.334 | acc_phy = 0.174 
+| epoch = 1 | step =    20 | loss_pnn = 2.226 | loss_cn = 0.00918716 | acc_sim = 0.421 | acc_phy = 0.270 
+| epoch = 1 | step =    30 | loss_pnn = 2.185 | loss_cn = 0.00900165 | acc_sim = 0.474 | acc_phy = 0.346 
+| epoch = 1 | step =    40 | loss_pnn = 2.159 | loss_cn = 0.00862811 | acc_sim = 0.518 | acc_phy = 0.384 
+| epoch = 1 | step =    50 | loss_pnn = 2.141 | loss_cn = 0.00809634 | acc_sim = 0.554 | acc_phy = 0.405 
+| epoch = 1 | step =    60 | loss_pnn = 2.127 | loss_cn = 0.00761962 | acc_sim = 0.580 | acc_phy = 0.421 
+| epoch = 1 | step =    70 | loss_pnn = 2.118 | loss_cn = 0.00719114 | acc_sim = 0.600 | acc_phy = 0.429 
+| epoch = 1 | step =    80 | loss_pnn = 2.110 | loss_cn = 0.00687095 | acc_sim = 0.618 | acc_phy = 0.439 
+| epoch = 1 | step =    90 | loss_pnn = 2.103 | loss_cn = 0.00658578 | acc_sim = 0.632 | acc_phy = 0.446 
+| epoch = 1 | step =   100 | loss_pnn = 2.095 | loss_cn = 0.00635901 | acc_sim = 0.644 | acc_phy = 0.453 
+| epoch = 1 | step =   110 | loss_pnn = 2.089 | loss_cn = 0.00616573 | acc_sim = 0.655 | acc_phy = 0.460 
+| epoch = 1 | step =   120 | loss_pnn = 2.083 | loss_cn = 0.00598849 | acc_sim = 0.665 | acc_phy = 0.465 
+Phy accuracy of the network on 10000 test images: 0.549
+
+
+Current training epoch: 2, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 2 | step =    10 | loss_pnn = 2.004 | loss_cn = 0.00391490 | acc_sim = 0.776 | acc_phy = 0.561 
+| epoch = 2 | step =    20 | loss_pnn = 2.004 | loss_cn = 0.00379945 | acc_sim = 0.774 | acc_phy = 0.555 
+| epoch = 2 | step =    30 | loss_pnn = 2.003 | loss_cn = 0.00368407 | acc_sim = 0.774 | acc_phy = 0.549 
+| epoch = 2 | step =    40 | loss_pnn = 2.002 | loss_cn = 0.00365300 | acc_sim = 0.778 | acc_phy = 0.551 
+| epoch = 2 | step =    50 | loss_pnn = 2.000 | loss_cn = 0.00357494 | acc_sim = 0.781 | acc_phy = 0.551 
+| epoch = 2 | step =    60 | loss_pnn = 1.999 | loss_cn = 0.00350428 | acc_sim = 0.783 | acc_phy = 0.551 
+| epoch = 2 | step =    70 | loss_pnn = 1.997 | loss_cn = 0.00344477 | acc_sim = 0.786 | acc_phy = 0.552 
+| epoch = 2 | step =    80 | loss_pnn = 1.995 | loss_cn = 0.00340325 | acc_sim = 0.786 | acc_phy = 0.553 
+| epoch = 2 | step =    90 | loss_pnn = 1.995 | loss_cn = 0.00335909 | acc_sim = 0.787 | acc_phy = 0.551 
+| epoch = 2 | step =   100 | loss_pnn = 1.993 | loss_cn = 0.00330169 | acc_sim = 0.788 | acc_phy = 0.550 
+| epoch = 2 | step =   110 | loss_pnn = 1.992 | loss_cn = 0.00324781 | acc_sim = 0.790 | acc_phy = 0.552 
+| epoch = 2 | step =   120 | loss_pnn = 1.990 | loss_cn = 0.00319792 | acc_sim = 0.791 | acc_phy = 0.552 
+Phy accuracy of the network on 10000 test images: 0.532
+
+
+Current training epoch: 3, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 3 | step =    10 | loss_pnn = 1.968 | loss_cn = 0.00254146 | acc_sim = 0.811 | acc_phy = 0.566 
+| epoch = 3 | step =    20 | loss_pnn = 1.971 | loss_cn = 0.00254372 | acc_sim = 0.815 | acc_phy = 0.558 
+| epoch = 3 | step =    30 | loss_pnn = 1.974 | loss_cn = 0.00251367 | acc_sim = 0.811 | acc_phy = 0.553 
+| epoch = 3 | step =    40 | loss_pnn = 1.971 | loss_cn = 0.00247244 | acc_sim = 0.809 | acc_phy = 0.554 
+| epoch = 3 | step =    50 | loss_pnn = 1.970 | loss_cn = 0.00245063 | acc_sim = 0.808 | acc_phy = 0.554 
+| epoch = 3 | step =    60 | loss_pnn = 1.968 | loss_cn = 0.00241863 | acc_sim = 0.808 | acc_phy = 0.557 
+| epoch = 3 | step =    70 | loss_pnn = 1.967 | loss_cn = 0.00239681 | acc_sim = 0.809 | acc_phy = 0.558 
+| epoch = 3 | step =    80 | loss_pnn = 1.965 | loss_cn = 0.00237490 | acc_sim = 0.810 | acc_phy = 0.561 
+| epoch = 3 | step =    90 | loss_pnn = 1.964 | loss_cn = 0.00235512 | acc_sim = 0.811 | acc_phy = 0.563 
+| epoch = 3 | step =   100 | loss_pnn = 1.962 | loss_cn = 0.00233307 | acc_sim = 0.812 | acc_phy = 0.564 
+| epoch = 3 | step =   110 | loss_pnn = 1.961 | loss_cn = 0.00231597 | acc_sim = 0.812 | acc_phy = 0.566 
+| epoch = 3 | step =   120 | loss_pnn = 1.960 | loss_cn = 0.00230083 | acc_sim = 0.812 | acc_phy = 0.567 
+Phy accuracy of the network on 10000 test images: 0.557
+
+
+Current training epoch: 4, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 4 | step =    10 | loss_pnn = 1.944 | loss_cn = 0.00200186 | acc_sim = 0.826 | acc_phy = 0.596 
+| epoch = 4 | step =    20 | loss_pnn = 1.947 | loss_cn = 0.00204143 | acc_sim = 0.820 | acc_phy = 0.586 
+| epoch = 4 | step =    30 | loss_pnn = 1.949 | loss_cn = 0.00202809 | acc_sim = 0.816 | acc_phy = 0.584 
+| epoch = 4 | step =    40 | loss_pnn = 1.947 | loss_cn = 0.00199827 | acc_sim = 0.817 | acc_phy = 0.583 
+| epoch = 4 | step =    50 | loss_pnn = 1.948 | loss_cn = 0.00199534 | acc_sim = 0.818 | acc_phy = 0.582 
+| epoch = 4 | step =    60 | loss_pnn = 1.946 | loss_cn = 0.00198203 | acc_sim = 0.819 | acc_phy = 0.585 
+| epoch = 4 | step =    70 | loss_pnn = 1.943 | loss_cn = 0.00196788 | acc_sim = 0.819 | acc_phy = 0.588 
+| epoch = 4 | step =    80 | loss_pnn = 1.942 | loss_cn = 0.00196814 | acc_sim = 0.820 | acc_phy = 0.589 
+| epoch = 4 | step =    90 | loss_pnn = 1.942 | loss_cn = 0.00196233 | acc_sim = 0.819 | acc_phy = 0.590 
+| epoch = 4 | step =   100 | loss_pnn = 1.941 | loss_cn = 0.00195823 | acc_sim = 0.820 | acc_phy = 0.590 
+| epoch = 4 | step =   110 | loss_pnn = 1.941 | loss_cn = 0.00194441 | acc_sim = 0.820 | acc_phy = 0.590 
+| epoch = 4 | step =   120 | loss_pnn = 1.940 | loss_cn = 0.00192728 | acc_sim = 0.820 | acc_phy = 0.592 
+Phy accuracy of the network on 10000 test images: 0.572
+
+
+Current training epoch: 5, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 5 | step =    10 | loss_pnn = 1.943 | loss_cn = 0.00181821 | acc_sim = 0.822 | acc_phy = 0.588 
+| epoch = 5 | step =    20 | loss_pnn = 1.940 | loss_cn = 0.00180598 | acc_sim = 0.826 | acc_phy = 0.590 
+| epoch = 5 | step =    30 | loss_pnn = 1.936 | loss_cn = 0.00179473 | acc_sim = 0.825 | acc_phy = 0.597 
+| epoch = 5 | step =    40 | loss_pnn = 1.936 | loss_cn = 0.00177093 | acc_sim = 0.824 | acc_phy = 0.597 
+| epoch = 5 | step =    50 | loss_pnn = 1.932 | loss_cn = 0.00175813 | acc_sim = 0.825 | acc_phy = 0.601 
+| epoch = 5 | step =    60 | loss_pnn = 1.931 | loss_cn = 0.00175884 | acc_sim = 0.825 | acc_phy = 0.602 
+| epoch = 5 | step =    70 | loss_pnn = 1.931 | loss_cn = 0.00174081 | acc_sim = 0.826 | acc_phy = 0.601 
+| epoch = 5 | step =    80 | loss_pnn = 1.930 | loss_cn = 0.00172204 | acc_sim = 0.826 | acc_phy = 0.602 
+| epoch = 5 | step =    90 | loss_pnn = 1.930 | loss_cn = 0.00171132 | acc_sim = 0.825 | acc_phy = 0.602 
+| epoch = 5 | step =   100 | loss_pnn = 1.931 | loss_cn = 0.00171270 | acc_sim = 0.825 | acc_phy = 0.600 
+| epoch = 5 | step =   110 | loss_pnn = 1.931 | loss_cn = 0.00169691 | acc_sim = 0.825 | acc_phy = 0.600 
+| epoch = 5 | step =   120 | loss_pnn = 1.930 | loss_cn = 0.00169413 | acc_sim = 0.826 | acc_phy = 0.601 
+Phy accuracy of the network on 10000 test images: 0.598
+
+
+Current training epoch: 6, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 6 | step =    10 | loss_pnn = 1.925 | loss_cn = 0.00172759 | acc_sim = 0.830 | acc_phy = 0.603 
+| epoch = 6 | step =    20 | loss_pnn = 1.926 | loss_cn = 0.00162525 | acc_sim = 0.829 | acc_phy = 0.599 
+| epoch = 6 | step =    30 | loss_pnn = 1.921 | loss_cn = 0.00159300 | acc_sim = 0.832 | acc_phy = 0.607 
+| epoch = 6 | step =    40 | loss_pnn = 1.922 | loss_cn = 0.00158894 | acc_sim = 0.830 | acc_phy = 0.609 
+| epoch = 6 | step =    50 | loss_pnn = 1.919 | loss_cn = 0.00159004 | acc_sim = 0.830 | acc_phy = 0.613 
+| epoch = 6 | step =    60 | loss_pnn = 1.922 | loss_cn = 0.00159616 | acc_sim = 0.829 | acc_phy = 0.611 
+| epoch = 6 | step =    70 | loss_pnn = 1.921 | loss_cn = 0.00159180 | acc_sim = 0.830 | acc_phy = 0.612 
+| epoch = 6 | step =    80 | loss_pnn = 1.920 | loss_cn = 0.00159153 | acc_sim = 0.829 | acc_phy = 0.614 
+| epoch = 6 | step =    90 | loss_pnn = 1.921 | loss_cn = 0.00159483 | acc_sim = 0.829 | acc_phy = 0.613 
+| epoch = 6 | step =   100 | loss_pnn = 1.921 | loss_cn = 0.00158322 | acc_sim = 0.830 | acc_phy = 0.612 
+| epoch = 6 | step =   110 | loss_pnn = 1.921 | loss_cn = 0.00157601 | acc_sim = 0.830 | acc_phy = 0.612 
+| epoch = 6 | step =   120 | loss_pnn = 1.920 | loss_cn = 0.00157172 | acc_sim = 0.830 | acc_phy = 0.612 
+Phy accuracy of the network on 10000 test images: 0.597
+
+
+Current training epoch: 7, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 7 | step =    10 | loss_pnn = 1.912 | loss_cn = 0.00159961 | acc_sim = 0.831 | acc_phy = 0.630 
+| epoch = 7 | step =    20 | loss_pnn = 1.912 | loss_cn = 0.00154258 | acc_sim = 0.831 | acc_phy = 0.623 
+| epoch = 7 | step =    30 | loss_pnn = 1.916 | loss_cn = 0.00151036 | acc_sim = 0.832 | acc_phy = 0.619 
+| epoch = 7 | step =    40 | loss_pnn = 1.918 | loss_cn = 0.00151440 | acc_sim = 0.831 | acc_phy = 0.618 
+| epoch = 7 | step =    50 | loss_pnn = 1.919 | loss_cn = 0.00152396 | acc_sim = 0.832 | acc_phy = 0.614 
+| epoch = 7 | step =    60 | loss_pnn = 1.918 | loss_cn = 0.00151787 | acc_sim = 0.832 | acc_phy = 0.615 
+| epoch = 7 | step =    70 | loss_pnn = 1.918 | loss_cn = 0.00151277 | acc_sim = 0.832 | acc_phy = 0.614 
+| epoch = 7 | step =    80 | loss_pnn = 1.919 | loss_cn = 0.00151661 | acc_sim = 0.831 | acc_phy = 0.613 
+| epoch = 7 | step =    90 | loss_pnn = 1.918 | loss_cn = 0.00150285 | acc_sim = 0.832 | acc_phy = 0.614 
+| epoch = 7 | step =   100 | loss_pnn = 1.917 | loss_cn = 0.00149758 | acc_sim = 0.833 | acc_phy = 0.614 
+| epoch = 7 | step =   110 | loss_pnn = 1.917 | loss_cn = 0.00149347 | acc_sim = 0.833 | acc_phy = 0.615 
+| epoch = 7 | step =   120 | loss_pnn = 1.917 | loss_cn = 0.00149795 | acc_sim = 0.834 | acc_phy = 0.615 
+Phy accuracy of the network on 10000 test images: 0.582
+
+
+Current training epoch: 8, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 8 | step =    10 | loss_pnn = 1.916 | loss_cn = 0.00144529 | acc_sim = 0.842 | acc_phy = 0.627 
+| epoch = 8 | step =    20 | loss_pnn = 1.918 | loss_cn = 0.00144190 | acc_sim = 0.834 | acc_phy = 0.620 
+| epoch = 8 | step =    30 | loss_pnn = 1.917 | loss_cn = 0.00142706 | acc_sim = 0.836 | acc_phy = 0.617 
+| epoch = 8 | step =    40 | loss_pnn = 1.915 | loss_cn = 0.00143707 | acc_sim = 0.836 | acc_phy = 0.617 
+| epoch = 8 | step =    50 | loss_pnn = 1.916 | loss_cn = 0.00143767 | acc_sim = 0.837 | acc_phy = 0.616 
+| epoch = 8 | step =    60 | loss_pnn = 1.914 | loss_cn = 0.00143629 | acc_sim = 0.838 | acc_phy = 0.618 
+| epoch = 8 | step =    70 | loss_pnn = 1.914 | loss_cn = 0.00143198 | acc_sim = 0.838 | acc_phy = 0.618 
+| epoch = 8 | step =    80 | loss_pnn = 1.914 | loss_cn = 0.00142949 | acc_sim = 0.838 | acc_phy = 0.620 
+| epoch = 8 | step =    90 | loss_pnn = 1.914 | loss_cn = 0.00143589 | acc_sim = 0.838 | acc_phy = 0.618 
+| epoch = 8 | step =   100 | loss_pnn = 1.915 | loss_cn = 0.00144521 | acc_sim = 0.838 | acc_phy = 0.617 
+| epoch = 8 | step =   110 | loss_pnn = 1.914 | loss_cn = 0.00144826 | acc_sim = 0.838 | acc_phy = 0.618 
+| epoch = 8 | step =   120 | loss_pnn = 1.915 | loss_cn = 0.00144850 | acc_sim = 0.837 | acc_phy = 0.617 
+Phy accuracy of the network on 10000 test images: 0.592
+
+
+Current training epoch: 9, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 9 | step =    10 | loss_pnn = 1.903 | loss_cn = 0.00139148 | acc_sim = 0.849 | acc_phy = 0.627 
+| epoch = 9 | step =    20 | loss_pnn = 1.906 | loss_cn = 0.00140812 | acc_sim = 0.844 | acc_phy = 0.623 
+| epoch = 9 | step =    30 | loss_pnn = 1.907 | loss_cn = 0.00140995 | acc_sim = 0.844 | acc_phy = 0.622 
+| epoch = 9 | step =    40 | loss_pnn = 1.906 | loss_cn = 0.00139869 | acc_sim = 0.844 | acc_phy = 0.623 
+| epoch = 9 | step =    50 | loss_pnn = 1.910 | loss_cn = 0.00139595 | acc_sim = 0.844 | acc_phy = 0.618 
+| epoch = 9 | step =    60 | loss_pnn = 1.909 | loss_cn = 0.00138956 | acc_sim = 0.843 | acc_phy = 0.619 
+| epoch = 9 | step =    70 | loss_pnn = 1.910 | loss_cn = 0.00139736 | acc_sim = 0.841 | acc_phy = 0.619 
+| epoch = 9 | step =    80 | loss_pnn = 1.909 | loss_cn = 0.00138761 | acc_sim = 0.839 | acc_phy = 0.620 
+| epoch = 9 | step =    90 | loss_pnn = 1.909 | loss_cn = 0.00138381 | acc_sim = 0.838 | acc_phy = 0.619 
+| epoch = 9 | step =   100 | loss_pnn = 1.910 | loss_cn = 0.00138202 | acc_sim = 0.838 | acc_phy = 0.617 
+| epoch = 9 | step =   110 | loss_pnn = 1.910 | loss_cn = 0.00138091 | acc_sim = 0.838 | acc_phy = 0.618 
+| epoch = 9 | step =   120 | loss_pnn = 1.910 | loss_cn = 0.00138385 | acc_sim = 0.838 | acc_phy = 0.618 
+Phy accuracy of the network on 10000 test images: 0.610
+
+
+Current training epoch: 10, learning rate for pnn: 0.001, learning rate for SEPN: 0.001
+| epoch = 10 | step =    10 | loss_pnn = 1.905 | loss_cn = 0.00131896 | acc_sim = 0.852 | acc_phy = 0.621 
+| epoch = 10 | step =    20 | loss_pnn = 1.916 | loss_cn = 0.00132533 | acc_sim = 0.842 | acc_phy = 0.610 
+| epoch = 10 | step =    30 | loss_pnn = 1.915 | loss_cn = 0.00135011 | acc_sim = 0.844 | acc_phy = 0.614 
+| epoch = 10 | step =    40 | loss_pnn = 1.919 | loss_cn = 0.00134174 | acc_sim = 0.842 | acc_phy = 0.606 
+| epoch = 10 | step =    50 | loss_pnn = 1.918 | loss_cn = 0.00135057 | acc_sim = 0.841 | acc_phy = 0.609 
+| epoch = 10 | step =    60 | loss_pnn = 1.917 | loss_cn = 0.00135750 | acc_sim = 0.841 | acc_phy = 0.612 
+| epoch = 10 | step =    70 | loss_pnn = 1.916 | loss_cn = 0.00133999 | acc_sim = 0.841 | acc_phy = 0.613 
+| epoch = 10 | step =    80 | loss_pnn = 1.916 | loss_cn = 0.00133210 | acc_sim = 0.840 | acc_phy = 0.613 
+| epoch = 10 | step =    90 | loss_pnn = 1.915 | loss_cn = 0.00132850 | acc_sim = 0.840 | acc_phy = 0.614 
+| epoch = 10 | step =   100 | loss_pnn = 1.915 | loss_cn = 0.00132613 | acc_sim = 0.839 | acc_phy = 0.615 
+| epoch = 10 | step =   110 | loss_pnn = 1.914 | loss_cn = 0.00132475 | acc_sim = 0.840 | acc_phy = 0.615 
+| epoch = 10 | step =   120 | loss_pnn = 1.914 | loss_cn = 0.00132486 | acc_sim = 0.840 | acc_phy = 0.616 
+Phy accuracy of the network on 10000 test images: 0.608
+
+
+Current training epoch: 11, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 11 | step =    10 | loss_pnn = 1.906 | loss_cn = 0.00129551 | acc_sim = 0.845 | acc_phy = 0.627 
+| epoch = 11 | step =    20 | loss_pnn = 1.910 | loss_cn = 0.00124873 | acc_sim = 0.845 | acc_phy = 0.620 
+| epoch = 11 | step =    30 | loss_pnn = 1.909 | loss_cn = 0.00120901 | acc_sim = 0.847 | acc_phy = 0.620 
+| epoch = 11 | step =    40 | loss_pnn = 1.908 | loss_cn = 0.00120285 | acc_sim = 0.846 | acc_phy = 0.620 
+| epoch = 11 | step =    50 | loss_pnn = 1.910 | loss_cn = 0.00120152 | acc_sim = 0.843 | acc_phy = 0.616 
+| epoch = 11 | step =    60 | loss_pnn = 1.910 | loss_cn = 0.00120007 | acc_sim = 0.843 | acc_phy = 0.615 
+| epoch = 11 | step =    70 | loss_pnn = 1.912 | loss_cn = 0.00120027 | acc_sim = 0.844 | acc_phy = 0.613 
+| epoch = 11 | step =    80 | loss_pnn = 1.912 | loss_cn = 0.00119772 | acc_sim = 0.843 | acc_phy = 0.614 
+| epoch = 11 | step =    90 | loss_pnn = 1.911 | loss_cn = 0.00119586 | acc_sim = 0.843 | acc_phy = 0.614 
+| epoch = 11 | step =   100 | loss_pnn = 1.912 | loss_cn = 0.00119596 | acc_sim = 0.844 | acc_phy = 0.613 
+| epoch = 11 | step =   110 | loss_pnn = 1.912 | loss_cn = 0.00119572 | acc_sim = 0.844 | acc_phy = 0.614 
+| epoch = 11 | step =   120 | loss_pnn = 1.912 | loss_cn = 0.00119438 | acc_sim = 0.843 | acc_phy = 0.613 
+Phy accuracy of the network on 10000 test images: 0.585
+
+
+Current training epoch: 12, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 12 | step =    10 | loss_pnn = 1.921 | loss_cn = 0.00110587 | acc_sim = 0.848 | acc_phy = 0.601 
+| epoch = 12 | step =    20 | loss_pnn = 1.918 | loss_cn = 0.00115700 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 12 | step =    30 | loss_pnn = 1.915 | loss_cn = 0.00115791 | acc_sim = 0.846 | acc_phy = 0.611 
+| epoch = 12 | step =    40 | loss_pnn = 1.914 | loss_cn = 0.00115149 | acc_sim = 0.844 | acc_phy = 0.611 
+| epoch = 12 | step =    50 | loss_pnn = 1.911 | loss_cn = 0.00114617 | acc_sim = 0.846 | acc_phy = 0.615 
+| epoch = 12 | step =    60 | loss_pnn = 1.911 | loss_cn = 0.00113729 | acc_sim = 0.846 | acc_phy = 0.614 
+| epoch = 12 | step =    70 | loss_pnn = 1.912 | loss_cn = 0.00114647 | acc_sim = 0.846 | acc_phy = 0.614 
+| epoch = 12 | step =    80 | loss_pnn = 1.912 | loss_cn = 0.00113796 | acc_sim = 0.846 | acc_phy = 0.612 
+| epoch = 12 | step =    90 | loss_pnn = 1.912 | loss_cn = 0.00114259 | acc_sim = 0.846 | acc_phy = 0.613 
+| epoch = 12 | step =   100 | loss_pnn = 1.914 | loss_cn = 0.00114267 | acc_sim = 0.845 | acc_phy = 0.610 
+| epoch = 12 | step =   110 | loss_pnn = 1.914 | loss_cn = 0.00114460 | acc_sim = 0.845 | acc_phy = 0.610 
+| epoch = 12 | step =   120 | loss_pnn = 1.914 | loss_cn = 0.00114626 | acc_sim = 0.845 | acc_phy = 0.609 
+Phy accuracy of the network on 10000 test images: 0.591
+
+
+Current training epoch: 13, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 13 | step =    10 | loss_pnn = 1.918 | loss_cn = 0.00118749 | acc_sim = 0.839 | acc_phy = 0.603 
+| epoch = 13 | step =    20 | loss_pnn = 1.911 | loss_cn = 0.00114261 | acc_sim = 0.844 | acc_phy = 0.614 
+| epoch = 13 | step =    30 | loss_pnn = 1.911 | loss_cn = 0.00113663 | acc_sim = 0.845 | acc_phy = 0.612 
+| epoch = 13 | step =    40 | loss_pnn = 1.912 | loss_cn = 0.00113698 | acc_sim = 0.846 | acc_phy = 0.611 
+| epoch = 13 | step =    50 | loss_pnn = 1.914 | loss_cn = 0.00114085 | acc_sim = 0.848 | acc_phy = 0.610 
+| epoch = 13 | step =    60 | loss_pnn = 1.915 | loss_cn = 0.00113029 | acc_sim = 0.848 | acc_phy = 0.609 
+| epoch = 13 | step =    70 | loss_pnn = 1.914 | loss_cn = 0.00113252 | acc_sim = 0.846 | acc_phy = 0.609 
+| epoch = 13 | step =    80 | loss_pnn = 1.913 | loss_cn = 0.00113874 | acc_sim = 0.846 | acc_phy = 0.611 
+| epoch = 13 | step =    90 | loss_pnn = 1.915 | loss_cn = 0.00113451 | acc_sim = 0.846 | acc_phy = 0.610 
+| epoch = 13 | step =   100 | loss_pnn = 1.915 | loss_cn = 0.00113713 | acc_sim = 0.845 | acc_phy = 0.609 
+| epoch = 13 | step =   110 | loss_pnn = 1.915 | loss_cn = 0.00114003 | acc_sim = 0.845 | acc_phy = 0.610 
+| epoch = 13 | step =   120 | loss_pnn = 1.915 | loss_cn = 0.00113880 | acc_sim = 0.845 | acc_phy = 0.609 
+Phy accuracy of the network on 10000 test images: 0.616
+
+
+Current training epoch: 14, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 14 | step =    10 | loss_pnn = 1.910 | loss_cn = 0.00107965 | acc_sim = 0.844 | acc_phy = 0.614 
+| epoch = 14 | step =    20 | loss_pnn = 1.909 | loss_cn = 0.00112014 | acc_sim = 0.847 | acc_phy = 0.618 
+| epoch = 14 | step =    30 | loss_pnn = 1.911 | loss_cn = 0.00112446 | acc_sim = 0.844 | acc_phy = 0.615 
+| epoch = 14 | step =    40 | loss_pnn = 1.915 | loss_cn = 0.00112136 | acc_sim = 0.843 | acc_phy = 0.610 
+| epoch = 14 | step =    50 | loss_pnn = 1.915 | loss_cn = 0.00111075 | acc_sim = 0.844 | acc_phy = 0.609 
+| epoch = 14 | step =    60 | loss_pnn = 1.916 | loss_cn = 0.00110673 | acc_sim = 0.843 | acc_phy = 0.608 
+| epoch = 14 | step =    70 | loss_pnn = 1.915 | loss_cn = 0.00110262 | acc_sim = 0.843 | acc_phy = 0.610 
+| epoch = 14 | step =    80 | loss_pnn = 1.915 | loss_cn = 0.00110269 | acc_sim = 0.843 | acc_phy = 0.609 
+| epoch = 14 | step =    90 | loss_pnn = 1.914 | loss_cn = 0.00110393 | acc_sim = 0.843 | acc_phy = 0.610 
+| epoch = 14 | step =   100 | loss_pnn = 1.914 | loss_cn = 0.00110366 | acc_sim = 0.843 | acc_phy = 0.609 
+| epoch = 14 | step =   110 | loss_pnn = 1.914 | loss_cn = 0.00110763 | acc_sim = 0.844 | acc_phy = 0.609 
+| epoch = 14 | step =   120 | loss_pnn = 1.915 | loss_cn = 0.00110778 | acc_sim = 0.845 | acc_phy = 0.609 
+Phy accuracy of the network on 10000 test images: 0.605
+
+
+Current training epoch: 15, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 15 | step =    10 | loss_pnn = 1.911 | loss_cn = 0.00113253 | acc_sim = 0.851 | acc_phy = 0.616 
+| epoch = 15 | step =    20 | loss_pnn = 1.911 | loss_cn = 0.00111955 | acc_sim = 0.852 | acc_phy = 0.620 
+| epoch = 15 | step =    30 | loss_pnn = 1.910 | loss_cn = 0.00110406 | acc_sim = 0.849 | acc_phy = 0.619 
+| epoch = 15 | step =    40 | loss_pnn = 1.908 | loss_cn = 0.00109940 | acc_sim = 0.852 | acc_phy = 0.619 
+| epoch = 15 | step =    50 | loss_pnn = 1.909 | loss_cn = 0.00108762 | acc_sim = 0.851 | acc_phy = 0.617 
+| epoch = 15 | step =    60 | loss_pnn = 1.909 | loss_cn = 0.00108591 | acc_sim = 0.851 | acc_phy = 0.617 
+| epoch = 15 | step =    70 | loss_pnn = 1.910 | loss_cn = 0.00108801 | acc_sim = 0.849 | acc_phy = 0.615 
+| epoch = 15 | step =    80 | loss_pnn = 1.911 | loss_cn = 0.00108730 | acc_sim = 0.849 | acc_phy = 0.614 
+| epoch = 15 | step =    90 | loss_pnn = 1.912 | loss_cn = 0.00109485 | acc_sim = 0.848 | acc_phy = 0.613 
+| epoch = 15 | step =   100 | loss_pnn = 1.913 | loss_cn = 0.00109142 | acc_sim = 0.848 | acc_phy = 0.612 
+| epoch = 15 | step =   110 | loss_pnn = 1.914 | loss_cn = 0.00109295 | acc_sim = 0.847 | acc_phy = 0.611 
+| epoch = 15 | step =   120 | loss_pnn = 1.914 | loss_cn = 0.00109335 | acc_sim = 0.846 | acc_phy = 0.611 
+Phy accuracy of the network on 10000 test images: 0.599
+
+
+Current training epoch: 16, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 16 | step =    10 | loss_pnn = 1.920 | loss_cn = 0.00110989 | acc_sim = 0.846 | acc_phy = 0.603 
+| epoch = 16 | step =    20 | loss_pnn = 1.919 | loss_cn = 0.00110777 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 16 | step =    30 | loss_pnn = 1.916 | loss_cn = 0.00109225 | acc_sim = 0.848 | acc_phy = 0.611 
+| epoch = 16 | step =    40 | loss_pnn = 1.917 | loss_cn = 0.00107900 | acc_sim = 0.849 | acc_phy = 0.608 
+| epoch = 16 | step =    50 | loss_pnn = 1.917 | loss_cn = 0.00108993 | acc_sim = 0.849 | acc_phy = 0.610 
+| epoch = 16 | step =    60 | loss_pnn = 1.916 | loss_cn = 0.00108940 | acc_sim = 0.848 | acc_phy = 0.611 
+| epoch = 16 | step =    70 | loss_pnn = 1.915 | loss_cn = 0.00108829 | acc_sim = 0.848 | acc_phy = 0.610 
+| epoch = 16 | step =    80 | loss_pnn = 1.916 | loss_cn = 0.00108242 | acc_sim = 0.847 | acc_phy = 0.608 
+| epoch = 16 | step =    90 | loss_pnn = 1.917 | loss_cn = 0.00108103 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 16 | step =   100 | loss_pnn = 1.917 | loss_cn = 0.00107406 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 16 | step =   110 | loss_pnn = 1.917 | loss_cn = 0.00107115 | acc_sim = 0.847 | acc_phy = 0.606 
+| epoch = 16 | step =   120 | loss_pnn = 1.918 | loss_cn = 0.00106942 | acc_sim = 0.848 | acc_phy = 0.605 
+Phy accuracy of the network on 10000 test images: 0.597
+
+
+Current training epoch: 17, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 17 | step =    10 | loss_pnn = 1.913 | loss_cn = 0.00113963 | acc_sim = 0.841 | acc_phy = 0.611 
+| epoch = 17 | step =    20 | loss_pnn = 1.916 | loss_cn = 0.00107574 | acc_sim = 0.844 | acc_phy = 0.605 
+| epoch = 17 | step =    30 | loss_pnn = 1.914 | loss_cn = 0.00106110 | acc_sim = 0.848 | acc_phy = 0.610 
+| epoch = 17 | step =    40 | loss_pnn = 1.916 | loss_cn = 0.00106177 | acc_sim = 0.846 | acc_phy = 0.610 
+| epoch = 17 | step =    50 | loss_pnn = 1.916 | loss_cn = 0.00105949 | acc_sim = 0.847 | acc_phy = 0.610 
+| epoch = 17 | step =    60 | loss_pnn = 1.917 | loss_cn = 0.00106618 | acc_sim = 0.846 | acc_phy = 0.610 
+| epoch = 17 | step =    70 | loss_pnn = 1.917 | loss_cn = 0.00106455 | acc_sim = 0.847 | acc_phy = 0.609 
+| epoch = 17 | step =    80 | loss_pnn = 1.917 | loss_cn = 0.00107130 | acc_sim = 0.847 | acc_phy = 0.608 
+| epoch = 17 | step =    90 | loss_pnn = 1.917 | loss_cn = 0.00107021 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 17 | step =   100 | loss_pnn = 1.918 | loss_cn = 0.00106438 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 17 | step =   110 | loss_pnn = 1.916 | loss_cn = 0.00106134 | acc_sim = 0.847 | acc_phy = 0.610 
+| epoch = 17 | step =   120 | loss_pnn = 1.916 | loss_cn = 0.00105462 | acc_sim = 0.847 | acc_phy = 0.610 
+Phy accuracy of the network on 10000 test images: 0.609
+
+
+Current training epoch: 18, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 18 | step =    10 | loss_pnn = 1.912 | loss_cn = 0.00098678 | acc_sim = 0.847 | acc_phy = 0.609 
+| epoch = 18 | step =    20 | loss_pnn = 1.914 | loss_cn = 0.00104465 | acc_sim = 0.842 | acc_phy = 0.608 
+| epoch = 18 | step =    30 | loss_pnn = 1.915 | loss_cn = 0.00104956 | acc_sim = 0.843 | acc_phy = 0.607 
+| epoch = 18 | step =    40 | loss_pnn = 1.913 | loss_cn = 0.00104511 | acc_sim = 0.844 | acc_phy = 0.608 
+| epoch = 18 | step =    50 | loss_pnn = 1.914 | loss_cn = 0.00103919 | acc_sim = 0.845 | acc_phy = 0.607 
+| epoch = 18 | step =    60 | loss_pnn = 1.915 | loss_cn = 0.00103776 | acc_sim = 0.846 | acc_phy = 0.605 
+| epoch = 18 | step =    70 | loss_pnn = 1.915 | loss_cn = 0.00103703 | acc_sim = 0.847 | acc_phy = 0.606 
+| epoch = 18 | step =    80 | loss_pnn = 1.914 | loss_cn = 0.00103490 | acc_sim = 0.847 | acc_phy = 0.607 
+| epoch = 18 | step =    90 | loss_pnn = 1.914 | loss_cn = 0.00103238 | acc_sim = 0.847 | acc_phy = 0.608 
+| epoch = 18 | step =   100 | loss_pnn = 1.914 | loss_cn = 0.00103347 | acc_sim = 0.848 | acc_phy = 0.608 
+| epoch = 18 | step =   110 | loss_pnn = 1.915 | loss_cn = 0.00103258 | acc_sim = 0.848 | acc_phy = 0.608 
+| epoch = 18 | step =   120 | loss_pnn = 1.916 | loss_cn = 0.00103471 | acc_sim = 0.847 | acc_phy = 0.607 
+Phy accuracy of the network on 10000 test images: 0.592
+
+
+Current training epoch: 19, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 19 | step =    10 | loss_pnn = 1.918 | loss_cn = 0.00100821 | acc_sim = 0.851 | acc_phy = 0.610 
+| epoch = 19 | step =    20 | loss_pnn = 1.917 | loss_cn = 0.00100708 | acc_sim = 0.850 | acc_phy = 0.608 
+| epoch = 19 | step =    30 | loss_pnn = 1.919 | loss_cn = 0.00097740 | acc_sim = 0.848 | acc_phy = 0.605 
+| epoch = 19 | step =    40 | loss_pnn = 1.919 | loss_cn = 0.00098740 | acc_sim = 0.850 | acc_phy = 0.606 
+| epoch = 19 | step =    50 | loss_pnn = 1.918 | loss_cn = 0.00099645 | acc_sim = 0.849 | acc_phy = 0.608 
+| epoch = 19 | step =    60 | loss_pnn = 1.918 | loss_cn = 0.00099936 | acc_sim = 0.849 | acc_phy = 0.606 
+| epoch = 19 | step =    70 | loss_pnn = 1.917 | loss_cn = 0.00099319 | acc_sim = 0.848 | acc_phy = 0.607 
+| epoch = 19 | step =    80 | loss_pnn = 1.917 | loss_cn = 0.00098842 | acc_sim = 0.849 | acc_phy = 0.607 
+| epoch = 19 | step =    90 | loss_pnn = 1.916 | loss_cn = 0.00099521 | acc_sim = 0.849 | acc_phy = 0.608 
+| epoch = 19 | step =   100 | loss_pnn = 1.917 | loss_cn = 0.00100217 | acc_sim = 0.849 | acc_phy = 0.607 
+| epoch = 19 | step =   110 | loss_pnn = 1.917 | loss_cn = 0.00099883 | acc_sim = 0.848 | acc_phy = 0.606 
+| epoch = 19 | step =   120 | loss_pnn = 1.917 | loss_cn = 0.00099829 | acc_sim = 0.849 | acc_phy = 0.606 
+Phy accuracy of the network on 10000 test images: 0.590
+
+
+Current training epoch: 20, learning rate for pnn: 0.0005, learning rate for SEPN: 0.0005
+| epoch = 20 | step =    10 | loss_pnn = 1.915 | loss_cn = 0.00103034 | acc_sim = 0.845 | acc_phy = 0.605 
+| epoch = 20 | step =    20 | loss_pnn = 1.920 | loss_cn = 0.00099735 | acc_sim = 0.847 | acc_phy = 0.599 
+| epoch = 20 | step =    30 | loss_pnn = 1.922 | loss_cn = 0.00100387 | acc_sim = 0.848 | acc_phy = 0.600 
+| epoch = 20 | step =    40 | loss_pnn = 1.920 | loss_cn = 0.00099582 | acc_sim = 0.848 | acc_phy = 0.602 
+| epoch = 20 | step =    50 | loss_pnn = 1.920 | loss_cn = 0.00099307 | acc_sim = 0.849 | acc_phy = 0.602 
+| epoch = 20 | step =    60 | loss_pnn = 1.918 | loss_cn = 0.00100238 | acc_sim = 0.849 | acc_phy = 0.607 
+| epoch = 20 | step =    70 | loss_pnn = 1.917 | loss_cn = 0.00100040 | acc_sim = 0.849 | acc_phy = 0.608 
+| epoch = 20 | step =    80 | loss_pnn = 1.917 | loss_cn = 0.00100245 | acc_sim = 0.849 | acc_phy = 0.607 
+| epoch = 20 | step =    90 | loss_pnn = 1.916 | loss_cn = 0.00099851 | acc_sim = 0.849 | acc_phy = 0.607 
+| epoch = 20 | step =   100 | loss_pnn = 1.917 | loss_cn = 0.00100178 | acc_sim = 0.849 | acc_phy = 0.606 
+| epoch = 20 | step =   110 | loss_pnn = 1.917 | loss_cn = 0.00100092 | acc_sim = 0.850 | acc_phy = 0.607 
+| epoch = 20 | step =   120 | loss_pnn = 1.917 | loss_cn = 0.00100325 | acc_sim = 0.850 | acc_phy = 0.606 
+Phy accuracy of the network on 10000 test images: 0.596
+
+
+Current training epoch: 21, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 21 | step =    10 | loss_pnn = 1.884 | loss_cn = 0.00095622 | acc_sim = 0.656 | acc_phy = 0.653 
+| epoch = 21 | step =    20 | loss_pnn = 1.842 | loss_cn = 0.00111302 | acc_sim = 0.701 | acc_phy = 0.698 
+| epoch = 21 | step =    30 | loss_pnn = 1.808 | loss_cn = 0.00128687 | acc_sim = 0.735 | acc_phy = 0.731 
+| epoch = 21 | step =    40 | loss_pnn = 1.787 | loss_cn = 0.00141370 | acc_sim = 0.754 | acc_phy = 0.749 
+| epoch = 21 | step =    50 | loss_pnn = 1.772 | loss_cn = 0.00146800 | acc_sim = 0.764 | acc_phy = 0.760 
+| epoch = 21 | step =    60 | loss_pnn = 1.759 | loss_cn = 0.00147939 | acc_sim = 0.773 | acc_phy = 0.768 
+| epoch = 21 | step =    70 | loss_pnn = 1.749 | loss_cn = 0.00149227 | acc_sim = 0.780 | acc_phy = 0.775 
+| epoch = 21 | step =    80 | loss_pnn = 1.741 | loss_cn = 0.00150618 | acc_sim = 0.785 | acc_phy = 0.780 
+| epoch = 21 | step =    90 | loss_pnn = 1.735 | loss_cn = 0.00151187 | acc_sim = 0.789 | acc_phy = 0.784 
+| epoch = 21 | step =   100 | loss_pnn = 1.730 | loss_cn = 0.00150543 | acc_sim = 0.792 | acc_phy = 0.787 
+| epoch = 21 | step =   110 | loss_pnn = 1.726 | loss_cn = 0.00150220 | acc_sim = 0.794 | acc_phy = 0.789 
+| epoch = 21 | step =   120 | loss_pnn = 1.722 | loss_cn = 0.00149344 | acc_sim = 0.796 | acc_phy = 0.791 
+Phy accuracy of the network on 10000 test images: 0.807
+
+
+Current training epoch: 22, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 22 | step =    10 | loss_pnn = 1.680 | loss_cn = 0.00145981 | acc_sim = 0.821 | acc_phy = 0.814 
+| epoch = 22 | step =    20 | loss_pnn = 1.681 | loss_cn = 0.00144861 | acc_sim = 0.819 | acc_phy = 0.813 
+| epoch = 22 | step =    30 | loss_pnn = 1.676 | loss_cn = 0.00138354 | acc_sim = 0.824 | acc_phy = 0.817 
+| epoch = 22 | step =    40 | loss_pnn = 1.675 | loss_cn = 0.00137050 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =    50 | loss_pnn = 1.674 | loss_cn = 0.00136990 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =    60 | loss_pnn = 1.674 | loss_cn = 0.00135846 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =    70 | loss_pnn = 1.673 | loss_cn = 0.00134733 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =    80 | loss_pnn = 1.672 | loss_cn = 0.00134044 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =    90 | loss_pnn = 1.672 | loss_cn = 0.00133997 | acc_sim = 0.824 | acc_phy = 0.819 
+| epoch = 22 | step =   100 | loss_pnn = 1.672 | loss_cn = 0.00133165 | acc_sim = 0.825 | acc_phy = 0.819 
+| epoch = 22 | step =   110 | loss_pnn = 1.672 | loss_cn = 0.00133166 | acc_sim = 0.824 | acc_phy = 0.819 
+| epoch = 22 | step =   120 | loss_pnn = 1.671 | loss_cn = 0.00131921 | acc_sim = 0.824 | acc_phy = 0.819 
+Phy accuracy of the network on 10000 test images: 0.810
+
+
+Current training epoch: 23, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 23 | step =    10 | loss_pnn = 1.669 | loss_cn = 0.00123892 | acc_sim = 0.823 | acc_phy = 0.815 
+| epoch = 23 | step =    20 | loss_pnn = 1.668 | loss_cn = 0.00123311 | acc_sim = 0.823 | acc_phy = 0.818 
+| epoch = 23 | step =    30 | loss_pnn = 1.667 | loss_cn = 0.00123360 | acc_sim = 0.824 | acc_phy = 0.819 
+| epoch = 23 | step =    40 | loss_pnn = 1.668 | loss_cn = 0.00123128 | acc_sim = 0.824 | acc_phy = 0.818 
+| epoch = 23 | step =    50 | loss_pnn = 1.667 | loss_cn = 0.00122845 | acc_sim = 0.824 | acc_phy = 0.819 
+| epoch = 23 | step =    60 | loss_pnn = 1.666 | loss_cn = 0.00120975 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 23 | step =    70 | loss_pnn = 1.666 | loss_cn = 0.00120655 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 23 | step =    80 | loss_pnn = 1.665 | loss_cn = 0.00121079 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 23 | step =    90 | loss_pnn = 1.665 | loss_cn = 0.00120596 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 23 | step =   100 | loss_pnn = 1.664 | loss_cn = 0.00120169 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 23 | step =   110 | loss_pnn = 1.663 | loss_cn = 0.00119818 | acc_sim = 0.826 | acc_phy = 0.822 
+| epoch = 23 | step =   120 | loss_pnn = 1.663 | loss_cn = 0.00119067 | acc_sim = 0.826 | acc_phy = 0.821 
+Phy accuracy of the network on 10000 test images: 0.810
+
+
+Current training epoch: 24, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 24 | step =    10 | loss_pnn = 1.661 | loss_cn = 0.00109831 | acc_sim = 0.822 | acc_phy = 0.819 
+| epoch = 24 | step =    20 | loss_pnn = 1.662 | loss_cn = 0.00108112 | acc_sim = 0.821 | acc_phy = 0.818 
+| epoch = 24 | step =    30 | loss_pnn = 1.662 | loss_cn = 0.00110038 | acc_sim = 0.821 | acc_phy = 0.818 
+| epoch = 24 | step =    40 | loss_pnn = 1.661 | loss_cn = 0.00112665 | acc_sim = 0.824 | acc_phy = 0.820 
+| epoch = 24 | step =    50 | loss_pnn = 1.661 | loss_cn = 0.00112913 | acc_sim = 0.824 | acc_phy = 0.820 
+| epoch = 24 | step =    60 | loss_pnn = 1.661 | loss_cn = 0.00112635 | acc_sim = 0.824 | acc_phy = 0.820 
+| epoch = 24 | step =    70 | loss_pnn = 1.661 | loss_cn = 0.00112313 | acc_sim = 0.824 | acc_phy = 0.820 
+| epoch = 24 | step =    80 | loss_pnn = 1.660 | loss_cn = 0.00112528 | acc_sim = 0.825 | acc_phy = 0.822 
+| epoch = 24 | step =    90 | loss_pnn = 1.659 | loss_cn = 0.00112510 | acc_sim = 0.826 | acc_phy = 0.822 
+| epoch = 24 | step =   100 | loss_pnn = 1.659 | loss_cn = 0.00112504 | acc_sim = 0.827 | acc_phy = 0.823 
+| epoch = 24 | step =   110 | loss_pnn = 1.659 | loss_cn = 0.00112525 | acc_sim = 0.827 | acc_phy = 0.822 
+| epoch = 24 | step =   120 | loss_pnn = 1.658 | loss_cn = 0.00112566 | acc_sim = 0.827 | acc_phy = 0.823 
+Phy accuracy of the network on 10000 test images: 0.813
+
+
+Current training epoch: 25, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 25 | step =    10 | loss_pnn = 1.655 | loss_cn = 0.00106842 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 25 | step =    20 | loss_pnn = 1.658 | loss_cn = 0.00105904 | acc_sim = 0.828 | acc_phy = 0.824 
+| epoch = 25 | step =    30 | loss_pnn = 1.658 | loss_cn = 0.00106101 | acc_sim = 0.827 | acc_phy = 0.823 
+| epoch = 25 | step =    40 | loss_pnn = 1.659 | loss_cn = 0.00108183 | acc_sim = 0.826 | acc_phy = 0.822 
+| epoch = 25 | step =    50 | loss_pnn = 1.659 | loss_cn = 0.00108325 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 25 | step =    60 | loss_pnn = 1.659 | loss_cn = 0.00108623 | acc_sim = 0.825 | acc_phy = 0.821 
+| epoch = 25 | step =    70 | loss_pnn = 1.657 | loss_cn = 0.00108614 | acc_sim = 0.827 | acc_phy = 0.823 
+| epoch = 25 | step =    80 | loss_pnn = 1.658 | loss_cn = 0.00109075 | acc_sim = 0.826 | acc_phy = 0.822 
+| epoch = 25 | step =    90 | loss_pnn = 1.657 | loss_cn = 0.00108694 | acc_sim = 0.827 | acc_phy = 0.823 
+| epoch = 25 | step =   100 | loss_pnn = 1.657 | loss_cn = 0.00108134 | acc_sim = 0.828 | acc_phy = 0.824 
+| epoch = 25 | step =   110 | loss_pnn = 1.656 | loss_cn = 0.00107683 | acc_sim = 0.828 | acc_phy = 0.824 
+| epoch = 25 | step =   120 | loss_pnn = 1.656 | loss_cn = 0.00108362 | acc_sim = 0.829 | acc_phy = 0.824 
+Phy accuracy of the network on 10000 test images: 0.817
+
+
+Current training epoch: 26, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 26 | step =    10 | loss_pnn = 1.654 | loss_cn = 0.00107988 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 26 | step =    20 | loss_pnn = 1.653 | loss_cn = 0.00104084 | acc_sim = 0.832 | acc_phy = 0.828 
+| epoch = 26 | step =    30 | loss_pnn = 1.653 | loss_cn = 0.00104370 | acc_sim = 0.831 | acc_phy = 0.828 
+| epoch = 26 | step =    40 | loss_pnn = 1.653 | loss_cn = 0.00104213 | acc_sim = 0.831 | acc_phy = 0.827 
+| epoch = 26 | step =    50 | loss_pnn = 1.653 | loss_cn = 0.00104020 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 26 | step =    60 | loss_pnn = 1.652 | loss_cn = 0.00104155 | acc_sim = 0.833 | acc_phy = 0.828 
+| epoch = 26 | step =    70 | loss_pnn = 1.652 | loss_cn = 0.00104608 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 26 | step =    80 | loss_pnn = 1.653 | loss_cn = 0.00104622 | acc_sim = 0.831 | acc_phy = 0.826 
+| epoch = 26 | step =    90 | loss_pnn = 1.653 | loss_cn = 0.00104743 | acc_sim = 0.830 | acc_phy = 0.826 
+| epoch = 26 | step =   100 | loss_pnn = 1.654 | loss_cn = 0.00104458 | acc_sim = 0.829 | acc_phy = 0.825 
+| epoch = 26 | step =   110 | loss_pnn = 1.654 | loss_cn = 0.00104934 | acc_sim = 0.829 | acc_phy = 0.825 
+| epoch = 26 | step =   120 | loss_pnn = 1.654 | loss_cn = 0.00104826 | acc_sim = 0.829 | acc_phy = 0.825 
+Phy accuracy of the network on 10000 test images: 0.818
+
+
+Current training epoch: 27, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 27 | step =    10 | loss_pnn = 1.651 | loss_cn = 0.00100780 | acc_sim = 0.833 | acc_phy = 0.830 
+| epoch = 27 | step =    20 | loss_pnn = 1.653 | loss_cn = 0.00097943 | acc_sim = 0.830 | acc_phy = 0.828 
+| epoch = 27 | step =    30 | loss_pnn = 1.651 | loss_cn = 0.00099397 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 27 | step =    40 | loss_pnn = 1.653 | loss_cn = 0.00102589 | acc_sim = 0.831 | acc_phy = 0.828 
+| epoch = 27 | step =    50 | loss_pnn = 1.653 | loss_cn = 0.00102552 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 27 | step =    60 | loss_pnn = 1.653 | loss_cn = 0.00102689 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 27 | step =    70 | loss_pnn = 1.653 | loss_cn = 0.00103470 | acc_sim = 0.831 | acc_phy = 0.826 
+| epoch = 27 | step =    80 | loss_pnn = 1.653 | loss_cn = 0.00104299 | acc_sim = 0.831 | acc_phy = 0.827 
+| epoch = 27 | step =    90 | loss_pnn = 1.653 | loss_cn = 0.00104875 | acc_sim = 0.830 | acc_phy = 0.826 
+| epoch = 27 | step =   100 | loss_pnn = 1.653 | loss_cn = 0.00105075 | acc_sim = 0.830 | acc_phy = 0.826 
+| epoch = 27 | step =   110 | loss_pnn = 1.653 | loss_cn = 0.00105310 | acc_sim = 0.830 | acc_phy = 0.826 
+| epoch = 27 | step =   120 | loss_pnn = 1.653 | loss_cn = 0.00104631 | acc_sim = 0.831 | acc_phy = 0.826 
+Phy accuracy of the network on 10000 test images: 0.818
+
+
+Current training epoch: 28, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 28 | step =    10 | loss_pnn = 1.658 | loss_cn = 0.00106224 | acc_sim = 0.823 | acc_phy = 0.822 
+| epoch = 28 | step =    20 | loss_pnn = 1.652 | loss_cn = 0.00100617 | acc_sim = 0.831 | acc_phy = 0.829 
+| epoch = 28 | step =    30 | loss_pnn = 1.651 | loss_cn = 0.00101670 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 28 | step =    40 | loss_pnn = 1.651 | loss_cn = 0.00102185 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 28 | step =    50 | loss_pnn = 1.652 | loss_cn = 0.00103117 | acc_sim = 0.832 | acc_phy = 0.828 
+| epoch = 28 | step =    60 | loss_pnn = 1.652 | loss_cn = 0.00103218 | acc_sim = 0.831 | acc_phy = 0.827 
+| epoch = 28 | step =    70 | loss_pnn = 1.652 | loss_cn = 0.00103108 | acc_sim = 0.831 | acc_phy = 0.827 
+| epoch = 28 | step =    80 | loss_pnn = 1.651 | loss_cn = 0.00103022 | acc_sim = 0.832 | acc_phy = 0.828 
+| epoch = 28 | step =    90 | loss_pnn = 1.651 | loss_cn = 0.00102579 | acc_sim = 0.832 | acc_phy = 0.828 
+| epoch = 28 | step =   100 | loss_pnn = 1.651 | loss_cn = 0.00102301 | acc_sim = 0.832 | acc_phy = 0.828 
+| epoch = 28 | step =   110 | loss_pnn = 1.652 | loss_cn = 0.00102744 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 28 | step =   120 | loss_pnn = 1.651 | loss_cn = 0.00102262 | acc_sim = 0.832 | acc_phy = 0.828 
+Phy accuracy of the network on 10000 test images: 0.821
+
+
+Current training epoch: 29, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 29 | step =    10 | loss_pnn = 1.644 | loss_cn = 0.00100442 | acc_sim = 0.837 | acc_phy = 0.834 
+| epoch = 29 | step =    20 | loss_pnn = 1.649 | loss_cn = 0.00099653 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 29 | step =    30 | loss_pnn = 1.650 | loss_cn = 0.00101048 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 29 | step =    40 | loss_pnn = 1.649 | loss_cn = 0.00101672 | acc_sim = 0.833 | acc_phy = 0.830 
+| epoch = 29 | step =    50 | loss_pnn = 1.650 | loss_cn = 0.00102496 | acc_sim = 0.832 | acc_phy = 0.830 
+| epoch = 29 | step =    60 | loss_pnn = 1.650 | loss_cn = 0.00101485 | acc_sim = 0.831 | acc_phy = 0.829 
+| epoch = 29 | step =    70 | loss_pnn = 1.651 | loss_cn = 0.00101266 | acc_sim = 0.831 | acc_phy = 0.828 
+| epoch = 29 | step =    80 | loss_pnn = 1.650 | loss_cn = 0.00100444 | acc_sim = 0.833 | acc_phy = 0.830 
+| epoch = 29 | step =    90 | loss_pnn = 1.649 | loss_cn = 0.00100184 | acc_sim = 0.833 | acc_phy = 0.830 
+| epoch = 29 | step =   100 | loss_pnn = 1.649 | loss_cn = 0.00100636 | acc_sim = 0.833 | acc_phy = 0.830 
+| epoch = 29 | step =   110 | loss_pnn = 1.650 | loss_cn = 0.00101165 | acc_sim = 0.833 | acc_phy = 0.829 
+| epoch = 29 | step =   120 | loss_pnn = 1.650 | loss_cn = 0.00100762 | acc_sim = 0.833 | acc_phy = 0.829 
+Phy accuracy of the network on 10000 test images: 0.821
+
+
+Current training epoch: 30, learning rate for pnn: 0.00025, learning rate for SEPN: 0.00025
+| epoch = 30 | step =    10 | loss_pnn = 1.650 | loss_cn = 0.00095914 | acc_sim = 0.830 | acc_phy = 0.829 
+| epoch = 30 | step =    20 | loss_pnn = 1.651 | loss_cn = 0.00094723 | acc_sim = 0.828 | acc_phy = 0.826 
+| epoch = 30 | step =    30 | loss_pnn = 1.650 | loss_cn = 0.00095653 | acc_sim = 0.831 | acc_phy = 0.829 
+| epoch = 30 | step =    40 | loss_pnn = 1.649 | loss_cn = 0.00096552 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =    50 | loss_pnn = 1.649 | loss_cn = 0.00098500 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =    60 | loss_pnn = 1.650 | loss_cn = 0.00099740 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =    70 | loss_pnn = 1.650 | loss_cn = 0.00099303 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =    80 | loss_pnn = 1.649 | loss_cn = 0.00098382 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =    90 | loss_pnn = 1.650 | loss_cn = 0.00098360 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =   100 | loss_pnn = 1.649 | loss_cn = 0.00098571 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 30 | step =   110 | loss_pnn = 1.649 | loss_cn = 0.00099093 | acc_sim = 0.833 | acc_phy = 0.829 
+| epoch = 30 | step =   120 | loss_pnn = 1.649 | loss_cn = 0.00098764 | acc_sim = 0.833 | acc_phy = 0.830 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 31, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 31 | step =    10 | loss_pnn = 1.650 | loss_cn = 0.00098318 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 31 | step =    20 | loss_pnn = 1.649 | loss_cn = 0.00098768 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 31 | step =    30 | loss_pnn = 1.649 | loss_cn = 0.00095924 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 31 | step =    40 | loss_pnn = 1.648 | loss_cn = 0.00095148 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 31 | step =    50 | loss_pnn = 1.648 | loss_cn = 0.00095390 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 31 | step =    60 | loss_pnn = 1.649 | loss_cn = 0.00095580 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 31 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00096306 | acc_sim = 0.834 | acc_phy = 0.831 
+| epoch = 31 | step =    80 | loss_pnn = 1.648 | loss_cn = 0.00096439 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 31 | step =    90 | loss_pnn = 1.648 | loss_cn = 0.00096530 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 31 | step =   100 | loss_pnn = 1.649 | loss_cn = 0.00096573 | acc_sim = 0.834 | acc_phy = 0.831 
+| epoch = 31 | step =   110 | loss_pnn = 1.649 | loss_cn = 0.00096451 | acc_sim = 0.834 | acc_phy = 0.831 
+| epoch = 31 | step =   120 | loss_pnn = 1.648 | loss_cn = 0.00096040 | acc_sim = 0.834 | acc_phy = 0.831 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 32, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 32 | step =    10 | loss_pnn = 1.648 | loss_cn = 0.00094621 | acc_sim = 0.835 | acc_phy = 0.826 
+| epoch = 32 | step =    20 | loss_pnn = 1.649 | loss_cn = 0.00094838 | acc_sim = 0.836 | acc_phy = 0.829 
+| epoch = 32 | step =    30 | loss_pnn = 1.646 | loss_cn = 0.00092817 | acc_sim = 0.839 | acc_phy = 0.833 
+| epoch = 32 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00092183 | acc_sim = 0.837 | acc_phy = 0.832 
+| epoch = 32 | step =    50 | loss_pnn = 1.647 | loss_cn = 0.00091968 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 32 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00093269 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 32 | step =    70 | loss_pnn = 1.647 | loss_cn = 0.00093248 | acc_sim = 0.837 | acc_phy = 0.832 
+| epoch = 32 | step =    80 | loss_pnn = 1.647 | loss_cn = 0.00093842 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 32 | step =    90 | loss_pnn = 1.647 | loss_cn = 0.00094220 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 32 | step =   100 | loss_pnn = 1.648 | loss_cn = 0.00094234 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 32 | step =   110 | loss_pnn = 1.647 | loss_cn = 0.00093952 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 32 | step =   120 | loss_pnn = 1.648 | loss_cn = 0.00095157 | acc_sim = 0.835 | acc_phy = 0.831 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 33, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 33 | step =    10 | loss_pnn = 1.649 | loss_cn = 0.00094482 | acc_sim = 0.836 | acc_phy = 0.831 
+| epoch = 33 | step =    20 | loss_pnn = 1.642 | loss_cn = 0.00093804 | acc_sim = 0.844 | acc_phy = 0.840 
+| epoch = 33 | step =    30 | loss_pnn = 1.647 | loss_cn = 0.00096235 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 33 | step =    40 | loss_pnn = 1.645 | loss_cn = 0.00094575 | acc_sim = 0.840 | acc_phy = 0.835 
+| epoch = 33 | step =    50 | loss_pnn = 1.648 | loss_cn = 0.00096347 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 33 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00095919 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 33 | step =    70 | loss_pnn = 1.647 | loss_cn = 0.00095099 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 33 | step =    80 | loss_pnn = 1.647 | loss_cn = 0.00095087 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 33 | step =    90 | loss_pnn = 1.647 | loss_cn = 0.00095412 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 33 | step =   100 | loss_pnn = 1.647 | loss_cn = 0.00095828 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 33 | step =   110 | loss_pnn = 1.648 | loss_cn = 0.00096056 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 33 | step =   120 | loss_pnn = 1.648 | loss_cn = 0.00095790 | acc_sim = 0.836 | acc_phy = 0.832 
+Phy accuracy of the network on 10000 test images: 0.825
+
+
+Current training epoch: 34, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 34 | step =    10 | loss_pnn = 1.648 | loss_cn = 0.00105190 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 34 | step =    20 | loss_pnn = 1.649 | loss_cn = 0.00098556 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 34 | step =    30 | loss_pnn = 1.650 | loss_cn = 0.00097103 | acc_sim = 0.832 | acc_phy = 0.829 
+| epoch = 34 | step =    40 | loss_pnn = 1.649 | loss_cn = 0.00095752 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 34 | step =    50 | loss_pnn = 1.649 | loss_cn = 0.00096467 | acc_sim = 0.835 | acc_phy = 0.830 
+| epoch = 34 | step =    60 | loss_pnn = 1.649 | loss_cn = 0.00097171 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 34 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00097238 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 34 | step =    80 | loss_pnn = 1.648 | loss_cn = 0.00097496 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 34 | step =    90 | loss_pnn = 1.648 | loss_cn = 0.00097252 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 34 | step =   100 | loss_pnn = 1.647 | loss_cn = 0.00097305 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 34 | step =   110 | loss_pnn = 1.648 | loss_cn = 0.00097673 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 34 | step =   120 | loss_pnn = 1.648 | loss_cn = 0.00097813 | acc_sim = 0.836 | acc_phy = 0.832 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 35, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 35 | step =    10 | loss_pnn = 1.647 | loss_cn = 0.00094966 | acc_sim = 0.838 | acc_phy = 0.832 
+| epoch = 35 | step =    20 | loss_pnn = 1.644 | loss_cn = 0.00096249 | acc_sim = 0.842 | acc_phy = 0.838 
+| epoch = 35 | step =    30 | loss_pnn = 1.646 | loss_cn = 0.00095645 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 35 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00098150 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 35 | step =    50 | loss_pnn = 1.647 | loss_cn = 0.00097985 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 35 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00097559 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 35 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00099477 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 35 | step =    80 | loss_pnn = 1.649 | loss_cn = 0.00099539 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 35 | step =    90 | loss_pnn = 1.649 | loss_cn = 0.00099723 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 35 | step =   100 | loss_pnn = 1.649 | loss_cn = 0.00100332 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 35 | step =   110 | loss_pnn = 1.649 | loss_cn = 0.00100585 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 35 | step =   120 | loss_pnn = 1.649 | loss_cn = 0.00100582 | acc_sim = 0.836 | acc_phy = 0.833 
+Phy accuracy of the network on 10000 test images: 0.825
+
+
+Current training epoch: 36, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 36 | step =    10 | loss_pnn = 1.656 | loss_cn = 0.00106059 | acc_sim = 0.830 | acc_phy = 0.826 
+| epoch = 36 | step =    20 | loss_pnn = 1.658 | loss_cn = 0.00110337 | acc_sim = 0.828 | acc_phy = 0.825 
+| epoch = 36 | step =    30 | loss_pnn = 1.655 | loss_cn = 0.00110884 | acc_sim = 0.831 | acc_phy = 0.829 
+| epoch = 36 | step =    40 | loss_pnn = 1.654 | loss_cn = 0.00110449 | acc_sim = 0.834 | acc_phy = 0.832 
+| epoch = 36 | step =    50 | loss_pnn = 1.652 | loss_cn = 0.00109066 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 36 | step =    60 | loss_pnn = 1.652 | loss_cn = 0.00109727 | acc_sim = 0.835 | acc_phy = 0.833 
+| epoch = 36 | step =    70 | loss_pnn = 1.651 | loss_cn = 0.00109861 | acc_sim = 0.837 | acc_phy = 0.835 
+| epoch = 36 | step =    80 | loss_pnn = 1.652 | loss_cn = 0.00110879 | acc_sim = 0.837 | acc_phy = 0.834 
+| epoch = 36 | step =    90 | loss_pnn = 1.653 | loss_cn = 0.00112096 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 36 | step =   100 | loss_pnn = 1.652 | loss_cn = 0.00112964 | acc_sim = 0.836 | acc_phy = 0.834 
+| epoch = 36 | step =   110 | loss_pnn = 1.652 | loss_cn = 0.00113807 | acc_sim = 0.837 | acc_phy = 0.834 
+| epoch = 36 | step =   120 | loss_pnn = 1.653 | loss_cn = 0.00114747 | acc_sim = 0.837 | acc_phy = 0.834 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 37, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 37 | step =    10 | loss_pnn = 1.653 | loss_cn = 0.00129257 | acc_sim = 0.842 | acc_phy = 0.837 
+| epoch = 37 | step =    20 | loss_pnn = 1.656 | loss_cn = 0.00131191 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 37 | step =    30 | loss_pnn = 1.656 | loss_cn = 0.00133052 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 37 | step =    40 | loss_pnn = 1.656 | loss_cn = 0.00135620 | acc_sim = 0.842 | acc_phy = 0.837 
+| epoch = 37 | step =    50 | loss_pnn = 1.659 | loss_cn = 0.00138768 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 37 | step =    60 | loss_pnn = 1.661 | loss_cn = 0.00141953 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 37 | step =    70 | loss_pnn = 1.663 | loss_cn = 0.00146103 | acc_sim = 0.836 | acc_phy = 0.831 
+| epoch = 37 | step =    80 | loss_pnn = 1.664 | loss_cn = 0.00148530 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 37 | step =    90 | loss_pnn = 1.665 | loss_cn = 0.00151791 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 37 | step =   100 | loss_pnn = 1.665 | loss_cn = 0.00155711 | acc_sim = 0.837 | acc_phy = 0.832 
+| epoch = 37 | step =   110 | loss_pnn = 1.665 | loss_cn = 0.00159168 | acc_sim = 0.838 | acc_phy = 0.832 
+| epoch = 37 | step =   120 | loss_pnn = 1.667 | loss_cn = 0.00162477 | acc_sim = 0.837 | acc_phy = 0.832 
+Phy accuracy of the network on 10000 test images: 0.820
+
+
+Current training epoch: 38, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 38 | step =    10 | loss_pnn = 1.680 | loss_cn = 0.00203550 | acc_sim = 0.835 | acc_phy = 0.829 
+| epoch = 38 | step =    20 | loss_pnn = 1.682 | loss_cn = 0.00210607 | acc_sim = 0.834 | acc_phy = 0.827 
+| epoch = 38 | step =    30 | loss_pnn = 1.682 | loss_cn = 0.00213415 | acc_sim = 0.834 | acc_phy = 0.827 
+| epoch = 38 | step =    40 | loss_pnn = 1.683 | loss_cn = 0.00213753 | acc_sim = 0.833 | acc_phy = 0.827 
+| epoch = 38 | step =    50 | loss_pnn = 1.684 | loss_cn = 0.00214774 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =    60 | loss_pnn = 1.684 | loss_cn = 0.00213688 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =    70 | loss_pnn = 1.685 | loss_cn = 0.00214160 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =    80 | loss_pnn = 1.684 | loss_cn = 0.00212320 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =    90 | loss_pnn = 1.684 | loss_cn = 0.00211175 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =   100 | loss_pnn = 1.683 | loss_cn = 0.00209203 | acc_sim = 0.834 | acc_phy = 0.826 
+| epoch = 38 | step =   110 | loss_pnn = 1.683 | loss_cn = 0.00206262 | acc_sim = 0.833 | acc_phy = 0.826 
+| epoch = 38 | step =   120 | loss_pnn = 1.682 | loss_cn = 0.00203302 | acc_sim = 0.833 | acc_phy = 0.826 
+Phy accuracy of the network on 10000 test images: 0.818
+
+
+Current training epoch: 39, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 39 | step =    10 | loss_pnn = 1.677 | loss_cn = 0.00175149 | acc_sim = 0.828 | acc_phy = 0.823 
+| epoch = 39 | step =    20 | loss_pnn = 1.674 | loss_cn = 0.00172143 | acc_sim = 0.829 | acc_phy = 0.824 
+| epoch = 39 | step =    30 | loss_pnn = 1.672 | loss_cn = 0.00169575 | acc_sim = 0.829 | acc_phy = 0.825 
+| epoch = 39 | step =    40 | loss_pnn = 1.671 | loss_cn = 0.00165913 | acc_sim = 0.829 | acc_phy = 0.824 
+| epoch = 39 | step =    50 | loss_pnn = 1.670 | loss_cn = 0.00162341 | acc_sim = 0.830 | acc_phy = 0.824 
+| epoch = 39 | step =    60 | loss_pnn = 1.669 | loss_cn = 0.00159203 | acc_sim = 0.831 | acc_phy = 0.826 
+| epoch = 39 | step =    70 | loss_pnn = 1.668 | loss_cn = 0.00157090 | acc_sim = 0.832 | acc_phy = 0.826 
+| epoch = 39 | step =    80 | loss_pnn = 1.667 | loss_cn = 0.00155353 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 39 | step =    90 | loss_pnn = 1.667 | loss_cn = 0.00153361 | acc_sim = 0.832 | acc_phy = 0.827 
+| epoch = 39 | step =   100 | loss_pnn = 1.666 | loss_cn = 0.00152277 | acc_sim = 0.832 | acc_phy = 0.826 
+| epoch = 39 | step =   110 | loss_pnn = 1.665 | loss_cn = 0.00151032 | acc_sim = 0.833 | acc_phy = 0.827 
+| epoch = 39 | step =   120 | loss_pnn = 1.664 | loss_cn = 0.00149930 | acc_sim = 0.833 | acc_phy = 0.828 
+Phy accuracy of the network on 10000 test images: 0.821
+
+
+Current training epoch: 40, learning rate for pnn: 0.000125, learning rate for SEPN: 0.000125
+| epoch = 40 | step =    10 | loss_pnn = 1.659 | loss_cn = 0.00122326 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 40 | step =    20 | loss_pnn = 1.655 | loss_cn = 0.00124318 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 40 | step =    30 | loss_pnn = 1.656 | loss_cn = 0.00126827 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 40 | step =    40 | loss_pnn = 1.658 | loss_cn = 0.00128255 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 40 | step =    50 | loss_pnn = 1.658 | loss_cn = 0.00129077 | acc_sim = 0.834 | acc_phy = 0.829 
+| epoch = 40 | step =    60 | loss_pnn = 1.657 | loss_cn = 0.00126991 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 40 | step =    70 | loss_pnn = 1.657 | loss_cn = 0.00126733 | acc_sim = 0.835 | acc_phy = 0.830 
+| epoch = 40 | step =    80 | loss_pnn = 1.656 | loss_cn = 0.00125671 | acc_sim = 0.835 | acc_phy = 0.830 
+| epoch = 40 | step =    90 | loss_pnn = 1.656 | loss_cn = 0.00125678 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 40 | step =   100 | loss_pnn = 1.656 | loss_cn = 0.00124953 | acc_sim = 0.834 | acc_phy = 0.829 
+| epoch = 40 | step =   110 | loss_pnn = 1.655 | loss_cn = 0.00124580 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 40 | step =   120 | loss_pnn = 1.654 | loss_cn = 0.00124312 | acc_sim = 0.835 | acc_phy = 0.831 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 41, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 41 | step =    10 | loss_pnn = 1.654 | loss_cn = 0.00128093 | acc_sim = 0.838 | acc_phy = 0.829 
+| epoch = 41 | step =    20 | loss_pnn = 1.655 | loss_cn = 0.00122208 | acc_sim = 0.835 | acc_phy = 0.827 
+| epoch = 41 | step =    30 | loss_pnn = 1.654 | loss_cn = 0.00121075 | acc_sim = 0.835 | acc_phy = 0.828 
+| epoch = 41 | step =    40 | loss_pnn = 1.653 | loss_cn = 0.00119781 | acc_sim = 0.835 | acc_phy = 0.830 
+| epoch = 41 | step =    50 | loss_pnn = 1.654 | loss_cn = 0.00118004 | acc_sim = 0.834 | acc_phy = 0.829 
+| epoch = 41 | step =    60 | loss_pnn = 1.653 | loss_cn = 0.00117003 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 41 | step =    70 | loss_pnn = 1.653 | loss_cn = 0.00115737 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 41 | step =    80 | loss_pnn = 1.653 | loss_cn = 0.00115790 | acc_sim = 0.834 | acc_phy = 0.830 
+| epoch = 41 | step =    90 | loss_pnn = 1.652 | loss_cn = 0.00115656 | acc_sim = 0.834 | acc_phy = 0.831 
+| epoch = 41 | step =   100 | loss_pnn = 1.652 | loss_cn = 0.00114869 | acc_sim = 0.835 | acc_phy = 0.832 
+| epoch = 41 | step =   110 | loss_pnn = 1.651 | loss_cn = 0.00114954 | acc_sim = 0.836 | acc_phy = 0.832 
+| epoch = 41 | step =   120 | loss_pnn = 1.651 | loss_cn = 0.00114612 | acc_sim = 0.836 | acc_phy = 0.832 
+Phy accuracy of the network on 10000 test images: 0.823
+
+
+Current training epoch: 42, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 42 | step =    10 | loss_pnn = 1.655 | loss_cn = 0.00112965 | acc_sim = 0.836 | acc_phy = 0.827 
+| epoch = 42 | step =    20 | loss_pnn = 1.655 | loss_cn = 0.00116543 | acc_sim = 0.835 | acc_phy = 0.828 
+| epoch = 42 | step =    30 | loss_pnn = 1.651 | loss_cn = 0.00114154 | acc_sim = 0.839 | acc_phy = 0.833 
+| epoch = 42 | step =    40 | loss_pnn = 1.650 | loss_cn = 0.00114062 | acc_sim = 0.839 | acc_phy = 0.833 
+| epoch = 42 | step =    50 | loss_pnn = 1.650 | loss_cn = 0.00114034 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 42 | step =    60 | loss_pnn = 1.650 | loss_cn = 0.00113390 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 42 | step =    70 | loss_pnn = 1.650 | loss_cn = 0.00112777 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 42 | step =    80 | loss_pnn = 1.650 | loss_cn = 0.00112210 | acc_sim = 0.837 | acc_phy = 0.832 
+| epoch = 42 | step =    90 | loss_pnn = 1.650 | loss_cn = 0.00112440 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 42 | step =   100 | loss_pnn = 1.649 | loss_cn = 0.00110869 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 42 | step =   110 | loss_pnn = 1.649 | loss_cn = 0.00110869 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 42 | step =   120 | loss_pnn = 1.650 | loss_cn = 0.00111029 | acc_sim = 0.837 | acc_phy = 0.833 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 43, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 43 | step =    10 | loss_pnn = 1.645 | loss_cn = 0.00103222 | acc_sim = 0.839 | acc_phy = 0.837 
+| epoch = 43 | step =    20 | loss_pnn = 1.645 | loss_cn = 0.00105142 | acc_sim = 0.841 | acc_phy = 0.838 
+| epoch = 43 | step =    30 | loss_pnn = 1.645 | loss_cn = 0.00105664 | acc_sim = 0.840 | acc_phy = 0.837 
+| epoch = 43 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00108610 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 43 | step =    50 | loss_pnn = 1.649 | loss_cn = 0.00108181 | acc_sim = 0.838 | acc_phy = 0.835 
+| epoch = 43 | step =    60 | loss_pnn = 1.648 | loss_cn = 0.00108736 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 43 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00108879 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 43 | step =    80 | loss_pnn = 1.648 | loss_cn = 0.00108223 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 43 | step =    90 | loss_pnn = 1.647 | loss_cn = 0.00108241 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 43 | step =   100 | loss_pnn = 1.648 | loss_cn = 0.00108520 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 43 | step =   110 | loss_pnn = 1.649 | loss_cn = 0.00108781 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 43 | step =   120 | loss_pnn = 1.649 | loss_cn = 0.00108722 | acc_sim = 0.838 | acc_phy = 0.834 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 44, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 44 | step =    10 | loss_pnn = 1.648 | loss_cn = 0.00107760 | acc_sim = 0.838 | acc_phy = 0.835 
+| epoch = 44 | step =    20 | loss_pnn = 1.647 | loss_cn = 0.00105984 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 44 | step =    30 | loss_pnn = 1.649 | loss_cn = 0.00108698 | acc_sim = 0.837 | acc_phy = 0.835 
+| epoch = 44 | step =    40 | loss_pnn = 1.651 | loss_cn = 0.00108741 | acc_sim = 0.835 | acc_phy = 0.831 
+| epoch = 44 | step =    50 | loss_pnn = 1.649 | loss_cn = 0.00109032 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 44 | step =    60 | loss_pnn = 1.648 | loss_cn = 0.00108517 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 44 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00108544 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 44 | step =    80 | loss_pnn = 1.648 | loss_cn = 0.00107953 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 44 | step =    90 | loss_pnn = 1.648 | loss_cn = 0.00107640 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 44 | step =   100 | loss_pnn = 1.648 | loss_cn = 0.00107329 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 44 | step =   110 | loss_pnn = 1.648 | loss_cn = 0.00107006 | acc_sim = 0.837 | acc_phy = 0.834 
+| epoch = 44 | step =   120 | loss_pnn = 1.648 | loss_cn = 0.00107002 | acc_sim = 0.838 | acc_phy = 0.834 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 45, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 45 | step =    10 | loss_pnn = 1.648 | loss_cn = 0.00103825 | acc_sim = 0.839 | acc_phy = 0.832 
+| epoch = 45 | step =    20 | loss_pnn = 1.645 | loss_cn = 0.00105035 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 45 | step =    30 | loss_pnn = 1.646 | loss_cn = 0.00105888 | acc_sim = 0.840 | acc_phy = 0.835 
+| epoch = 45 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00104684 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 45 | step =    50 | loss_pnn = 1.647 | loss_cn = 0.00104409 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 45 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00104735 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 45 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00104840 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 45 | step =    80 | loss_pnn = 1.648 | loss_cn = 0.00104693 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 45 | step =    90 | loss_pnn = 1.648 | loss_cn = 0.00105292 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 45 | step =   100 | loss_pnn = 1.648 | loss_cn = 0.00105357 | acc_sim = 0.838 | acc_phy = 0.833 
+| epoch = 45 | step =   110 | loss_pnn = 1.647 | loss_cn = 0.00104608 | acc_sim = 0.839 | acc_phy = 0.834 
+| epoch = 45 | step =   120 | loss_pnn = 1.647 | loss_cn = 0.00104949 | acc_sim = 0.838 | acc_phy = 0.834 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 46, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 46 | step =    10 | loss_pnn = 1.640 | loss_cn = 0.00102987 | acc_sim = 0.848 | acc_phy = 0.846 
+| epoch = 46 | step =    20 | loss_pnn = 1.644 | loss_cn = 0.00105653 | acc_sim = 0.845 | acc_phy = 0.841 
+| epoch = 46 | step =    30 | loss_pnn = 1.644 | loss_cn = 0.00105018 | acc_sim = 0.844 | acc_phy = 0.841 
+| epoch = 46 | step =    40 | loss_pnn = 1.645 | loss_cn = 0.00104881 | acc_sim = 0.841 | acc_phy = 0.838 
+| epoch = 46 | step =    50 | loss_pnn = 1.646 | loss_cn = 0.00104247 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 46 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00104185 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 46 | step =    70 | loss_pnn = 1.647 | loss_cn = 0.00105465 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 46 | step =    80 | loss_pnn = 1.647 | loss_cn = 0.00105543 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 46 | step =    90 | loss_pnn = 1.648 | loss_cn = 0.00105344 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 46 | step =   100 | loss_pnn = 1.647 | loss_cn = 0.00104615 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 46 | step =   110 | loss_pnn = 1.647 | loss_cn = 0.00104248 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 46 | step =   120 | loss_pnn = 1.647 | loss_cn = 0.00104092 | acc_sim = 0.839 | acc_phy = 0.835 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 47, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 47 | step =    10 | loss_pnn = 1.651 | loss_cn = 0.00107380 | acc_sim = 0.833 | acc_phy = 0.827 
+| epoch = 47 | step =    20 | loss_pnn = 1.650 | loss_cn = 0.00104203 | acc_sim = 0.836 | acc_phy = 0.831 
+| epoch = 47 | step =    30 | loss_pnn = 1.647 | loss_cn = 0.00101815 | acc_sim = 0.837 | acc_phy = 0.835 
+| epoch = 47 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00102405 | acc_sim = 0.837 | acc_phy = 0.834 
+| epoch = 47 | step =    50 | loss_pnn = 1.648 | loss_cn = 0.00102010 | acc_sim = 0.836 | acc_phy = 0.833 
+| epoch = 47 | step =    60 | loss_pnn = 1.648 | loss_cn = 0.00102282 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 47 | step =    70 | loss_pnn = 1.648 | loss_cn = 0.00101825 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 47 | step =    80 | loss_pnn = 1.647 | loss_cn = 0.00101427 | acc_sim = 0.837 | acc_phy = 0.833 
+| epoch = 47 | step =    90 | loss_pnn = 1.647 | loss_cn = 0.00101239 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 47 | step =   100 | loss_pnn = 1.647 | loss_cn = 0.00101405 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 47 | step =   110 | loss_pnn = 1.646 | loss_cn = 0.00101679 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 47 | step =   120 | loss_pnn = 1.646 | loss_cn = 0.00102288 | acc_sim = 0.839 | acc_phy = 0.835 
+Phy accuracy of the network on 10000 test images: 0.825
+
+
+Current training epoch: 48, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 48 | step =    10 | loss_pnn = 1.644 | loss_cn = 0.00107521 | acc_sim = 0.843 | acc_phy = 0.839 
+| epoch = 48 | step =    20 | loss_pnn = 1.648 | loss_cn = 0.00106727 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 48 | step =    30 | loss_pnn = 1.644 | loss_cn = 0.00104320 | acc_sim = 0.844 | acc_phy = 0.840 
+| epoch = 48 | step =    40 | loss_pnn = 1.644 | loss_cn = 0.00104304 | acc_sim = 0.844 | acc_phy = 0.839 
+| epoch = 48 | step =    50 | loss_pnn = 1.645 | loss_cn = 0.00103935 | acc_sim = 0.842 | acc_phy = 0.838 
+| epoch = 48 | step =    60 | loss_pnn = 1.645 | loss_cn = 0.00103471 | acc_sim = 0.841 | acc_phy = 0.838 
+| epoch = 48 | step =    70 | loss_pnn = 1.646 | loss_cn = 0.00102671 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 48 | step =    80 | loss_pnn = 1.646 | loss_cn = 0.00102050 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 48 | step =    90 | loss_pnn = 1.646 | loss_cn = 0.00101605 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 48 | step =   100 | loss_pnn = 1.646 | loss_cn = 0.00101776 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 48 | step =   110 | loss_pnn = 1.646 | loss_cn = 0.00102051 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 48 | step =   120 | loss_pnn = 1.646 | loss_cn = 0.00101611 | acc_sim = 0.839 | acc_phy = 0.836 
+Phy accuracy of the network on 10000 test images: 0.825
+
+
+Current training epoch: 49, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 49 | step =    10 | loss_pnn = 1.648 | loss_cn = 0.00107338 | acc_sim = 0.836 | acc_phy = 0.831 
+| epoch = 49 | step =    20 | loss_pnn = 1.646 | loss_cn = 0.00103792 | acc_sim = 0.838 | acc_phy = 0.834 
+| epoch = 49 | step =    30 | loss_pnn = 1.647 | loss_cn = 0.00105319 | acc_sim = 0.839 | acc_phy = 0.834 
+| epoch = 49 | step =    40 | loss_pnn = 1.647 | loss_cn = 0.00104683 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 49 | step =    50 | loss_pnn = 1.645 | loss_cn = 0.00103123 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 49 | step =    60 | loss_pnn = 1.647 | loss_cn = 0.00103030 | acc_sim = 0.839 | acc_phy = 0.835 
+| epoch = 49 | step =    70 | loss_pnn = 1.646 | loss_cn = 0.00102616 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 49 | step =    80 | loss_pnn = 1.646 | loss_cn = 0.00102049 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 49 | step =    90 | loss_pnn = 1.645 | loss_cn = 0.00101424 | acc_sim = 0.841 | acc_phy = 0.837 
+| epoch = 49 | step =   100 | loss_pnn = 1.646 | loss_cn = 0.00101604 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 49 | step =   110 | loss_pnn = 1.646 | loss_cn = 0.00101064 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 49 | step =   120 | loss_pnn = 1.646 | loss_cn = 0.00100893 | acc_sim = 0.840 | acc_phy = 0.836 
+Phy accuracy of the network on 10000 test images: 0.824
+
+
+Current training epoch: 50, learning rate for pnn: 6.25e-05, learning rate for SEPN: 6.25e-05
+| epoch = 50 | step =    10 | loss_pnn = 1.641 | loss_cn = 0.00098233 | acc_sim = 0.844 | acc_phy = 0.838 
+| epoch = 50 | step =    20 | loss_pnn = 1.645 | loss_cn = 0.00098752 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 50 | step =    30 | loss_pnn = 1.645 | loss_cn = 0.00098757 | acc_sim = 0.841 | acc_phy = 0.836 
+| epoch = 50 | step =    40 | loss_pnn = 1.645 | loss_cn = 0.00100120 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 50 | step =    50 | loss_pnn = 1.646 | loss_cn = 0.00099940 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 50 | step =    60 | loss_pnn = 1.645 | loss_cn = 0.00099616 | acc_sim = 0.840 | acc_phy = 0.837 
+| epoch = 50 | step =    70 | loss_pnn = 1.646 | loss_cn = 0.00100645 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 50 | step =    80 | loss_pnn = 1.645 | loss_cn = 0.00099802 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 50 | step =    90 | loss_pnn = 1.646 | loss_cn = 0.00100061 | acc_sim = 0.839 | acc_phy = 0.836 
+| epoch = 50 | step =   100 | loss_pnn = 1.646 | loss_cn = 0.00100604 | acc_sim = 0.840 | acc_phy = 0.836 
+| epoch = 50 | step =   110 | loss_pnn = 1.645 | loss_cn = 0.00100343 | acc_sim = 0.840 | acc_phy = 0.837 
+| epoch = 50 | step =   120 | loss_pnn = 1.646 | loss_cn = 0.00100263 | acc_sim = 0.840 | acc_phy = 0.836 
+Phy accuracy of the network on 10000 test images: 0.825
+
+Finished training. Elapsed time of training = 2:32:31.068982
