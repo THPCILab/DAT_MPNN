@@ -6,6 +6,7 @@ This repository is for dual adaptive training (DAT) of inference-based photonic 
 * [Introduction](#introduction)
 * [Dependencies](#dependencies)
 * [Running codes](#running-codes)
+* [Generating figures in the paper](#generating-figures-in-the-paper)
 
 <!-- vim-markdown-toc -->
 
@@ -13,7 +14,7 @@ This repository is for dual adaptive training (DAT) of inference-based photonic 
 Photonic neural network (PNN) is a remarkable analog artificial intelligence (AI) accelerator that computes with photons instead of electrons to feature low latency, high energy efficiency, and high parallelism. However, the existing training approaches cannot address the extensive accumulation of systematic errors in large-scale PNNs, resulting in a significant decrease in model performance in physical systems. Here, we propose dual adaptive training (DAT) that allows the PNN model to adapt to substantial systematic errors and preserves its performance during the deployment. By introducing the systematic error prediction networks with task-similarity joint optimization, DAT achieves the high similarity mapping between the PNN numerical models and physical systems and high-accurate gradient calculations during the dual backpropagation training. We validated the effectiveness of DAT by using diffractive PNNs and interference-based PNNs on image classification tasks. DAT successfully trained large-scale PNNs under major systematic errors and preserved the model classification accuracies comparable to error-free systems. The results further demonstrated its superior performance over the state-of-the-art in situ training approaches. DAT provides critical support for constructing large-scale PNNs to achieve advanced architectures and can be generalized to other types of AI systems with analog computing errors.
 
 ## Dependencies
-Some important are specified in `requirements.txt` as follows:
+Some important dependencies are specified in `requirements.txt` as follows:
 ```text
 numpy>=1.16
 scipy
@@ -74,4 +75,42 @@ Explanation for the new options:
 * `-misu/--meas_IS_unitary (-miss/--meas_IS_separable)`: whether implementing DAT in unitary or separable mode. `-misu` for unitary mode and `-miss` for separable mode.
 * `-p/--plot`: the options for saving phase, confusion matrix and energe distribution during testing phase.
 
+##  Generating figures in the paper
+
 All the models for generating Fig.4(b), 4(c), 4(d), 4(e), 5(c) are saved in `./logs`.
+
+To generate the result for Direct Deployment in Fig.4(b) when std of phase shifter error is 0.04, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method ideal -bs 500 -dataN MNIST -phaseE 0.04 -Etype phaseE 
+```
+
+To generate the result for PAT in Fig.4(c) when std of beamsplitter error is 0.06, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method pat -bs 500 -dataN FMNIST -bsE 0.06 -Etype bsE 
+```
+
+To generate the result for DAT w/o IS (~4k Params) in Fig.4(d) when std of beamsplitter error is 0.02, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method dat -bs 500 -dataN MNIST -bsE 0.02 -Etype bsE -cn UNet -ks 3 -FM_num 4 6 8
+```
+
+To generate the result for DAT w/ IS (~10k Params) in Fig.4(d) when std of phase shifter error is 0.08, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method dat -bs 500 -dataN MNIST -phaseE 0.08 -Etype phaseE -cn UNet -ks 3 -FM_num 4 8 16 -misu
+```
+
+To generate the result for DAT w/ IS Sp (~10k Params) in Fig.4(e) when std of phase shifter error is 0.04, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method dat -bs 500 -dataN MNIST -phaseE 0.04 -Etype phaseE -cn UNet -ks 3 -FM_num 4 8 16 -miss
+```
+
+To generate the result for DAT w/ IS (~10k Params) in Fig.5(c) when stds of beamsplitter and phase shifter errors are 0.06 and 0.06 in the task of MNIST classification, use the following command:
+
+```
+python main.py -g 0 -wave_dims 64 -test -id 0 -iterN 3 -method dat -bs 500 -dataN MNIST -bsE 0.06 -phaseE 0.06 -Etype bothE -cn UNet -ks 3 -FM_num 4 8 16 -misu -p
+```
