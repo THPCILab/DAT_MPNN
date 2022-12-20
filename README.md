@@ -19,7 +19,7 @@ Some important dependencies are specified in `requirements.txt` as follows:
 numpy>=1.16
 scipy
 tensorflow>=2.2.0
-torch>=1.7
+torch>=1.10
 ```
 
 ## Running codes
