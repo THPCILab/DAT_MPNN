@@ -1,5 +1,9 @@
 # Dual adaptive training of photonic neural networks
-This repository is for dual adaptive training (DAT) of inference-based photonic neural networks (MPNNs), where the code for the construction of MPNNs is based on the Neurophox repository (https://github.com/solgaardlab/neurophox) and the complex-valued SEPNs is based on (https://github.com/wavefrontshaping/complexPyTorch).
+This repository is for dual adaptive training (DAT) of inference-based photonic neural networks (MPNNs) proposed in the following paper:
+
+Ziyang Zheng*, Zhengyang Duan*, Hang Chen, Rui Yang, Sheng Gao, Haiou Zhang, Hongkai Xiong, Xing Lin, "Dual adaptive training of photonic neural networks." arXiv preprint arXiv:2212.06141 (2022). (*These Authors contributed equally to this work. DOI: https://doi.org/10.48550/arXiv.2212.06141)
+
+The codes for the construction of MPNNs and the complex-valued SEPNs are based on the Neurophox repository (https://github.com/solgaardlab/neurophox) and (https://github.com/wavefrontshaping/complexPyTorch), respectively.
 
 <!-- vim-markdown-toc GFM -->
 
